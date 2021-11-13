@@ -1,0 +1,33 @@
+baseURL = "http://notes.boynux.com/"
+languageCode = "en-us"
+title = "My personal [public] dairy"
+theme = "anatole"
+
+[params]
+title = "I'm Mohamad"
+author = "Mohamad"
+description = "I share my daily thoughts about random topics here!"
+profilePicture = "images/profile_image.jpg"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+copyright = "2020-{{ YEAR }}"
+
